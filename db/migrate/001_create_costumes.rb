@@ -11,6 +11,7 @@ def change
   create_table :costumes do |t|
     t.string :name
     t.float :price
+    t.string :url
   end
 end
 
