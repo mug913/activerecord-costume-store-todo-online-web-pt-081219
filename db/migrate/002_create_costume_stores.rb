@@ -6,8 +6,8 @@ def change
     t.string :location
     t.integer :num_of_employees
     t.boolean :still_in_business
-    t.time :start_time
-    t.time :end_time
+    t.time :opening_time
+    t.time :closing_time
     t.timestamps
   end
 end
