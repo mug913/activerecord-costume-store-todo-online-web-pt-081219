@@ -6,8 +6,8 @@ def change
     t.string :location
     t.float :price
     t.boolean :family_friendly
-    t.time :opening_time
-    t.time :closing_time
+    t.date :opening_date
+    t.date :closing_date
     t.timestamps
   end
 end
