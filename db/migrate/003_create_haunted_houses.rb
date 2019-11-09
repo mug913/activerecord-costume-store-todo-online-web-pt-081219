@@ -4,7 +4,7 @@ def change
     t.string :name
     t.string :theme
     t.string :location
-    t.integer :num_of_employees
+    t.float :price
     t.boolean :still_in_business
     t.time :opening_time
     t.time :closing_time
