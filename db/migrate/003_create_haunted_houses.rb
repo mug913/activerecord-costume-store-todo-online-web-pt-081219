@@ -5,7 +5,7 @@ def change
     t.string :theme
     t.string :location
     t.float :price
-    t.boolean :still_in_business
+    t.boolean :family_friendly
     t.time :opening_time
     t.time :closing_time
     t.timestamps
