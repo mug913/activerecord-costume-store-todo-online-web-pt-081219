@@ -8,7 +8,7 @@ def change
     t.boolean :family_friendly
     t.date :opening_date
     t.date :closing_date
-    t.varchar :description
+    t.text :description
     t.timestamps
   end
 end
